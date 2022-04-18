@@ -1,0 +1,72 @@
+				Object Oriented Programming
+
+	Object - A Real World Entity, which is programmed by a developer and further used for automation, 		 reporting, analysis
+
+	Oriented - A technique to create the objects
+
+		C Programming - Dannie ritchi
+		OOPS          - Smalltalk - Alan Kay along with Xerox Research Group
+		C++           - Barne stratpous
+			added OOPS to C and gave compilers and keywords
+
+	-------------------------------------------------------------------
+		OOPS - Class -
+			 Develope a blueprint of an object
+			and we have 4 pillars to design the object
+
+		 Abstraction : Consider only properties and function(and other enums,constructors etc)
+			which are in scope of an software
+				Eg.To open a new bank account (50+ properties)
+				
+				Blood group ?
+				No of siblings ? May not be imp (data type to be int)+ field in database
+
+				sleepingHabits(), eatingHabbits()
+		
+				How about Hospital Software?
+				Blood group ?
+				No of siblings ? (data type to be int)
+				sleepingHabits(), eatingHabbits()
+
+			we mark the class as abstract, mostly this classes are parent class, top of the module
+
+
+		Encapsulation : Create software easy to very easy to use
+				but
+				Difficult to understand on how it work
+			achive it using properties and fucntions
+
+		Inheritance : Reuse the code as much as possible
+			achive it using (:) in C#, extends in Java simpilar other ways in other languages
+
+		Polymorphism : Same signature, different behavious
+			mark a method as virtual in parent class
+			make a methof as overrides in child class
+		
+
+		---
+		once comfortable in OOPS implementation
+		we have solid principles
+
+		and then Design pattern for more better apps 
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			
+
+
+			
+
+		
+		

@@ -1,0 +1,6 @@
+C:\Users\trainer\Desktop\OOPS and DP\Day 1\bankingLIB\bankingLIB\bin\Debug\bankingLIB.dll
+C:\Users\trainer\Desktop\OOPS and DP\Day 1\bankingLIB\bankingLIB\bin\Debug\bankingLIB.pdb
+C:\Users\trainer\Desktop\OOPS and DP\Day 1\bankingLIB\bankingLIB\obj\Debug\bankingLIB.csproj.AssemblyReference.cache
+C:\Users\trainer\Desktop\OOPS and DP\Day 1\bankingLIB\bankingLIB\obj\Debug\bankingLIB.csproj.CoreCompileInputs.cache
+C:\Users\trainer\Desktop\OOPS and DP\Day 1\bankingLIB\bankingLIB\obj\Debug\bankingLIB.dll
+C:\Users\trainer\Desktop\OOPS and DP\Day 1\bankingLIB\bankingLIB\obj\Debug\bankingLIB.pdb

@@ -1,0 +1,87 @@
+
+
+
+
+		Lunch : 1:30 - 2:30 
+
+		Post Lunch : Diagrams and Solid Principles
+
+		UML - Unified Modelling language (this is all about visuals)
+
+				for OOPS (Class Diagram)
+				for DB   (ER Diagram)
+				for network (Network diagram)
+
+			this is all about shapes and them communication
+
+		Diagrams have levels
+			1.0
+			1.1 (more details)
+			1.2 (more in detail)
+			1.3 (more in details)
+
+
+			For a same class, object of this class will be created and managed in different ways
+			memory management will be differnt
+			lifecycle will be diffeent
+
+		class diagram does not include data, where as object diagram has a data
+
+
+
+
+
+
+
+
+
+
+
+
+
+			SDLC
+			OOPS with UML
+			OOPS with Solid Principles
+			OPPS with DP
+
+
+
+			SOLID Principles are 5  principles
+			S - keep only the related operations in a class, 
+				non related move to other class
+			Accounts:
+			widraw()
+			deposit()
+			transfer()
+			authenticate() ------ this is not related, move to other class
+
+
+	
+			O
+			L
+			I
+			D 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
