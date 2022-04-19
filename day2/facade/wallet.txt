@@ -1,0 +1,7 @@
+private class wallet
+{
+	void widraw(amt)
+	void deposit(amt)
+	void transfter(amt)
+	void billpay(reciever,amt)
+}

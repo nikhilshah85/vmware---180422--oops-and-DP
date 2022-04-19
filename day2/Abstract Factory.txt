@@ -1,0 +1,60 @@
+interface IAccounts {...... }
+public abstract class Accounts :  IAccount{ .....get..set....methdos...function...events...constructors etc }
+
+
+public  class Savings : Accounts,IAccountsFactory{...}
+public  class Current : Accounts,IAccountsFactory{...}
+
+------------------------------------------------------------------
+
+public class Salary : Savings { ... }
+public class FD : Savings { ... }
+public class Joint : Savings { ... }
+
+public class Propritor: Current { } 
+public class RetailStore: Current { } 
+public class GovtProvisioned: Current { } 
+
+---------------------------------------------------------------------------
+interfacec IAccountsFactory
+{
+	Account GetAccountType(string type);   
+	
+}
+
+================================================================================
+
+public static class AccountsFactory : IAccount
+{
+
+	public static Account GetAccountType(string accType)
+	{
+		IAccount acc = Activator.CreateInstance(accType);
+		return acc;
+	}
+}
+
+
+
+public static class AccountsTypeFactory : IAccountsFactory
+{
+	Savings GetAccountType(string type)
+	{
+		Account acc = Account.GetAccountType(type);
+		return acc;
+	}
+
+}
+------------------------------------------------------------------------------------
+	IAccountFactory acc = AccountFactory.GetSavingsAccountType("Salary");
+	
+	Option 1: remove the class to be an abstract class, for savings and current (yes breaks the oops) - still if u use, Interface
+		(problem, someone may just createa  new saving account)
+	Option 2: add 1 more factory which will solve the prblem, a bit lengthy procedure but something which will give a solution
+
+
+
+
+
+
+

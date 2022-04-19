@@ -1,0 +1,54 @@
+public class Subway
+{
+		ISubwayBuilder sub = new BuildMacPatty("BrownBread",8,['Mayone','Musturd','Red Chilli'],['Spring 							Onion','Capsicum','Jalepeno'],'Peanut butter');
+}
+
+
+interface ISubWayBuilder
+{
+	string getBreadType(string name);
+	string getBreadSize(int size);
+	string getSauces(params allsauces string[]);
+	string getVegatables(params allVegList string[]);
+	string getCheeseType(string cheeseName);
+}
+
+class  BuildMacPatty : ISubWayBuilder 
+{
+	implement all the methods, and put the logic
+	public BuildMacPatty( string breadType, int breadSize, param sauces string[],param vegatables string[], string cheese)
+}
+
+class BuildSomeVegSub : ISubWayBuilder
+{
+	implement all the methods, and put the logic
+	public BuildMacPatty( ...list of values goes here )
+}
+
+class BuildSomeNonVegSub : ISubWarBuilder
+{
+	implement all the methods, and put the logic
+}
+
+---------------------------------------------------------------------- Further implementtin when the application/business expands
+
+
+public speicyVegSub:BuildSomeVegSub 
+{
+
+}
+
+public glutenFreeVegSub:BuildSomeVegSub 
+{
+
+}
+
+
+
+
+
+
+
+
+
+

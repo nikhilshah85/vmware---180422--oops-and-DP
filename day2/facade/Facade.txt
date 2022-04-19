@@ -1,0 +1,4 @@
+
+	PaymentFacade obj = new PaymentFacade("CreditCard");
+	obj.WireMoney(amount);
+	obj.ShowProductList();

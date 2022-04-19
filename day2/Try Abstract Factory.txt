@@ -1,0 +1,41 @@
+We need the below controls on a Form
+
+Textbox - coming from factory
+	Masked
+	Singleline
+	Multiline
+	richtextbox
+Button
+	Rounded buttons
+	Link button
+	
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

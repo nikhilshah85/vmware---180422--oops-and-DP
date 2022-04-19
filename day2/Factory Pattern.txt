@@ -1,0 +1,94 @@
+interface IAccount
+{
+	Account createNewAccount(string type);		
+}
+--------------------------------------------------------------------------------------
+public class Accounts { props, methods, events, constructors, variables, etccc..}
+
+public abstract class Savings : Accounts
+{
+
+}
+
+public class Current : Accounts
+{
+
+}
+
+public class PF : Accounts
+{
+
+}
+
+public class Loan : Accounts
+{
+
+}
+
+public class EducationalLoan : Accounts
+{
+
+}
+---------------------------------------------------------------
+public static class AccountFactory : IAccount 
+{
+	public static Account createNewAccount(string accType)
+	{
+		//many develoeprs, many project will implemebt if or switch case, which is nt a good practice at all
+		//use dynamic activator provided in framework
+		Account acc = Activator.CreateInstance(typeof(accType));
+		return acc;
+	}
+}
+-------------------------------------------------------------------
+in the UI - This will make sure, UI will never need a code change
+	// IAccounts acc = new AccountFactory();
+	// Accounts accObj = acc.createNewAccount(drp_value);
+
+	IAccounts acc = AccountFactory.createNewAccount(drp_value);
+	Accounts acc  = AccountFactory.createNewAccount(drp_value); //lets say you seleceed Savings
+
+		
+	--that's it 
+
+----------------------------------------------------------------------------------------------------
+
+		Activatator - this internally creates a new object for you in the memory 
+
+		Accounts acc = new Savings();	
+		Accunts acc = new Current();
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

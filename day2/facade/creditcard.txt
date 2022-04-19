@@ -1,0 +1,7 @@
+private class CreditCard
+{
+	void widraw(amt) - 10 lines
+	void deposit(amt) - 10 lines
+	void transfter(amt) -20 line
+	void billpay(reciever,amt) - 20 lines
+}

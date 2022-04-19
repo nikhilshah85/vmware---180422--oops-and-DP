@@ -1,0 +1,67 @@
+
+
+
+
+1. class Reciever, 
+	class bulb {
+			abstract turnOn(){ }
+			abstract turnOff(){ }
+		  }
+
+2. Command Interface
+	interface Command
+	{
+ 		   public function execute();
+	           public function undo();
+   		   public function redo();
+	}
+3. class TurnOn implements Command
+	{
+		 public function execute() {  }
+	           public function undo() { .... }
+   		   public function redo() { ..... }
+	}
+
+4.  class TurnOff implements Command
+	{
+		 public function execute() { .... }
+	           public function undo() { .... }
+   		   public function redo() { ..... }
+	}
+5.  class RemoteControl (invoker)
+    {
+	Command obj;
+
+	public RemoteControl()
+	{
+		Bulb bulbObj = new Bulb();	
+		obj = bulbObj;
+	}
+
+	TurnOn objTurnOn = new TurnOn(obj);
+	TurnOn objTurnOf = new TurnOn(obj);
+
+on the click of the On buttn on a remote control
+	objTurnOn.execute();
+	objTurnOn.undo();
+
+
+on the click of the  buttn on a remote control
+	objTurnoff.execute();
+	objTurnOff.undo();
+
+	
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
