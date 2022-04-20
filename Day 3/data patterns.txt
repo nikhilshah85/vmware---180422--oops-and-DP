@@ -1,0 +1,38 @@
+
+
+
+
+
+		Anti Patterns
+			1. Null object pattern 
+			2. God Object
+				An object which does mostly many/everything for your app
+
+			Exception class to handle all the exceptions 
+
+		Data Patterns
+			JDBC - uses adapter pattern, which can connect to any data source
+			ORM - Object relational mapping Hibernete / Entity Framework
+				ContextClass will work with all the POCO classes / entities
+			ADO.net - Connected and disconnect arch
+					different classes, methds, packages etc...
+
+	
+							Lunch : 1-15 - 2:15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

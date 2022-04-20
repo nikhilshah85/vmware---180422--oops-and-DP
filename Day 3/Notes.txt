@@ -1,0 +1,124 @@
+OOPS
+SOLID Pattern
+Design Patterns (Interface driven development)
+	Structure
+	Creational 
+	Behavioural Pattern
+	Quick Qustion
+
+		Name any 2 structural pattern
+		Which pattern will be used to create and 		
+		A senerio where u will find use of observer pattern
+MVC Pattern 
+Component Based development
+
+
+
+
+
+				This is to do with Mdern Web - Web revolutin
+
+		1. When was the first time you used internet ? Year - Global average is 2007
+		2. Where did you use internet ? -(Home/Office/Cyber/School) - Cyber 
+		3. Why did u used internet for - email, check universit result, online games
+		4. What was the source of internet (telephone / lan / Wifi-rare) - telephne
+		5. What was the device - desktop - Laptop 
+		
+		Web developers created an application an web contents accordingly
+
+
+		Today, things are differnt
+		2. Mobile phones / tables (differnt sizes, width, height, resolution etc...)
+		3. This bring a change in habbit 
+			Video
+			Image
+			Camera, web check in, navigator etc
+			Hardware - cache 
+			when  was the last you cleared browser cache
+		4. Mobile data is the source - which is nt static and people want to use it everywhere
+		5. Reduce the round trips between client and server
+
+
+=-==================================================================
+		and thus the idea of client centeric develpment came it
+			here on web - Only 3 languages are understood 
+					HTML - HTML5 (super awsome)
+					CSS - CSS3 (super super awsome, totally removed dependency on vendor specific tools)
+					JS - this was a major challange (JS was not OOPS based)
+						Thus they brough ECMA Script (which is OOPS based)		
+							this is again difficult to learn 
+						Microsoft - took the language standars - gave compilers and a new language
+					Gave us TypeScript
+
+			AngularJS (MVC pattern) - really helpful fr small applications
+			Angular by google - they use (HTML+CSS+JS) to render a plugin on the brwsers - cmponent - it will go to serverr only refresh the data 
+			React by facebook 
+
+	
+	 component - it will go to serverr only refresh the data - making a Rest call
+
+		Class file, which will include HTML and JS, and gets rendered as 1 unit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+

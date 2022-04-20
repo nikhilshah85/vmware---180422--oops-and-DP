@@ -1,0 +1,17 @@
+						Model View Controller
+
+
+		1. Model - Data
+			CRUD Operations - JDBC commands
+			SP executions
+			Data fformatting, validataions, calculation, data decorations, etc....
+			Database operations (sql, no sql etc.)
+			API calls frm server side
+		2. View - UI (eg. for a web app)
+			HTML, CSS, JS, JQuery, Bootstrap, React, Google material, fonts etc...
+			Client side validation, calculations goes here
+			API call from client side (fetch api)
+		3. Controller - This is communicater between View and Model
+			collect the data from Model ---->> pass it to the view for display
+			collect the data from view  ---->> pass it to model
+			Authentication, authorization, caching, statement management, encryption logic etc...

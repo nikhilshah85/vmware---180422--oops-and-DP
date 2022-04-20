@@ -1,0 +1,56 @@
+
+
+
+
+		Microservice is also a development pattern - Structural pattern
+		1. What are the old application development  architecture model called ?
+			SinglePatch - MVC Architecture
+			Mololitic - everything in 1 application
+			Service Oriented
+			Microservice
+
+
+			M is a differnt app
+			C
+			V		
+			Netowork 
+		This apps are converted to images (code executable + the environment setups)
+		and then run them into a containers (a process which will execute the images)
+		you deploy this apps to repsitories (Docker hub, AWS, Azure etc..)
+
+
+		2. RESTAPI / Web Service / SOAP 
+			a. Aggregator pattern (what is it as per name)
+			b. API gateway pattern		
+		3. Modular pattern 
+			include only this modules and features which are used in the app
+			add them when as an when needed
+		4. MVVM Pattern - specifically fr UI 
+			Model view view Model
+			(MVC is fr web) and u had a controller
+
+		This is for desktp based applications, Android app, Windows Desktop app, VB6.0, WPF applications
+			Model - Data (define data, have methds, connoect to DB, SP) (- data layer)
+			View  - UI for display (button) (focus event - when focus, change the background to blue)
+			View  - events are in this file (click event of the buttn) - this event can be used for 10 other button
+							write a focus even once and apply it on 10 diffent objects
+						(u can do it with CSS as well, but this is a nt a web app)
+			Model - Communicatin between View and first Model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

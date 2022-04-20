@@ -1,0 +1,23 @@
+
+
+
+			Service Locator Pattern (Location finder service)
+				Google maps, bing etc...
+
+				a. Travel from 1 place to another
+				b. calculate distance from 1 place to place
+				c. predit the best route for travel
+
+			this  services communicate with satellite and help you show the surrounding 
+
+			have u used google map in ur app before ?
+
+	------------------------------------------------------------------------------------------------------------------
+			Discovery service pattern 
+				Discover the service which can service your request at run time
+
+			Advance web service - it has a new feature called Discovery service
+
+				at the campus - 2 cafeteria were 
+				Army personael can discover from desk the menu for the lunch, breakfast from their app
+				when they go to a diffent campus, their device can discover
